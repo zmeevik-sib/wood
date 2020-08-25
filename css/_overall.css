@@ -1,0 +1,62 @@
+.container {
+	max-width: 1180px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.site-container {
+	overflow: hidden;
+	max-width: 1920px;
+	width: 100%;
+	background-image: url(../img/fon.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+.btn {
+	text-transform: uppercase;
+	letter-spacing: 2.18182px;
+	border-radius: 5px;
+	background-image: var(--gold-color);
+	box-shadow: 0 3px 0 0 rgb(206, 149, 17);
+	cursor: pointer;
+}
+
+.btn-red {
+	text-transform: uppercase;
+	letter-spacing: 2.18182px;
+	border-radius: 5px;
+	background-color: var(--red-color);
+	box-shadow: 0 3px 0 0 #d90808;
+	cursor: pointer;
+}
+
+.btn-red:hover {
+	background-color: var(--red-color2);;
+}
+
+
+.btn-reset {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	padding: 0;
+}
+
+.title__name h2 {
+	font-size: 46px;
+	text-align: center;
+	font-family: TTNormsMedium;
+}
+
+.title__name h2 span{
+	font-family: TTNormsLight;
+}
+
+
+@media (max-width: 768px){
+	.title__name h2{
+		font-size: 26px;
+	}
+}

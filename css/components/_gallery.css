@@ -1,0 +1,199 @@
+.gallery__title__name {
+	padding-bottom: 50px;
+}
+
+.gallery__wrapper>div {
+	padding: 0.5em;
+
+}
+
+.gallery__wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-auto-rows: minmax(200px, auto);
+	justify-items: stretch;
+	align-items: stretch;
+	padding-top: 55px;
+}
+
+.gallery__items1,
+.gallery__items3,
+.gallery__items4 {
+	max-width: 270px;
+	height: auto;
+}
+
+.gallery__items7 {
+	max-width: 285px;
+	height: auto;
+}
+
+.gallery__items5 {
+	width: 270px;
+	height: auto;
+}
+
+.gallery__items6,
+.gallery__items2 {
+	max-width: 570px;
+	height: auto;
+}
+
+.gallery__items__big {
+	grid-row-end: span 2;
+	grid-column-end: span 2;
+}
+
+.gallery__items__long {
+	grid-row-end: span 2;
+}
+
+.gallery__items__row {
+	grid-column-end: span 2;
+}
+
+.example-image {
+	border-radius: 8px;
+}
+
+.gallery__contact {
+	max-width: 1000px;
+	height: auto;
+	margin: 95px auto 85px auto;
+	border-radius: 10px;
+	background-color: rgb(250, 250, 250);
+	padding: 50px 25px;
+	border: 2px solid var(--red-color);
+}
+
+.gallery__contact__add input {
+	background-color: var(--white-color);
+}
+
+.gallery__contact__title {
+	font-family: TTNormsMedium;
+	font-size: 46px;
+}
+
+.gallery__contact__title span {
+	font-family: TTNormsLight;
+}
+
+.gallery__contact_descr {
+	font-family: TTNormsRegular;
+	font-size: 19px;
+	padding-top: 10px;
+}
+
+.gallery__contact__position {
+	padding: 25px 0 0 25px;
+}
+
+.gallery__contact__persona-name {
+	font-family: TTNormsMedium;
+	font-size: 14px;
+	color: var(--black-color);
+	font-weight: 600;
+}
+
+.gallery__contact__persona-title {
+	font-family: TTNormsRegular;
+	font-size: 13px;
+	color: rgb(119, 119, 119);
+
+}
+
+.gallery__contact__persona-foto {
+	background-image: url(../../img/yury-alexandrov.png);
+	background-repeat: no-repeat;
+	width: 69px;
+	height: 69px;
+	background-position: center;
+	background-size: 70px;
+	border-radius: 100px;
+}
+
+.gallery__agreement {
+	font-size: 14px;
+	font-family: TTNormsRegular;
+	color: var(--black-color);
+	text-align: center;
+	padding-top: 15px;
+}
+
+
+.gallery__agreement a {
+	color: #a6c8f8;
+}
+
+.gallery__contact__info {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.gallery__contact__persona {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.gallery__button {
+	width: 230px;
+	height: 55px;
+	margin: 0;
+}
+
+@media (max-width: 1024px){
+	.gallery__items__long img {
+		max-height: 360px;
+   width: 280px;
+	}
+}
+
+@media (max-width:768px){
+	.gallery__contact__title {
+		font-size: 24px;
+		text-align: center;
+	}
+	.gallery__contact_descr {
+		font-size: 14px;
+		text-align: center;
+	}
+	.gallery__wrapper {
+		grid-template-columns: 1fr 1fr;
+		justify-content: center;
+    justify-items: center;
+
+	}
+	.gallery__items__big {
+    grid-row-end: span 1;
+		grid-column-end: span 1;
+		width: 280px;
+}
+.gallery__items__row {
+	grid-column-end: span 1;
+	width: 280px;
+}
+	.gallery__items7 {
+		order: -1;
+	}
+	.gallery__items__long {
+		grid-row-end: span 0;
+		}
+
+
+}
+
+@media (max-width: 576px) {
+	.gallery__wrapper {
+		grid-template-columns: 1fr;
+		justify-content: center;
+    justify-items: center;
+
+	}
+}
+
+

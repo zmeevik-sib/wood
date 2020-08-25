@@ -1,0 +1,147 @@
+.product__title {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.product__info {
+	position: relative;
+	width: 100%;
+}
+
+.product__picture {
+	width: 47%;
+	display: inline-block;
+	text-align: right;
+}
+
+.product__picture img {
+	width: 408px;
+  height: 408px;
+}
+
+.product__descr {
+	font-family: TTNormsRegular;
+	font-size: 18px;
+	width: 442px;
+  height: 102px;
+	background-color: var(--white-color);
+	border-radius: 8px;
+	box-shadow: 0px 14px 59px 0px rgba(163, 169, 183, 0.15);
+	border-left: 5px solid var(--green-color);
+	padding: 25px 40px;
+	line-height: 1.5;
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 25px;
+}
+
+.product__use {
+	font-family: TTNormsMedium;
+	font-size: 19px;
+	font-weight: 700;
+	padding: 25px 70px;
+}
+
+.product__use__items {
+	font-size: 17px;
+	font-family: TTNormsRegular;
+}
+
+.product__use__descr {
+	list-style-image: url(../../img/icon/list.svg);
+	padding-left: 95px;
+  line-height: 1.7;
+}
+
+.product__descr__full {
+width: 45%;
+display: inline-block;
+position: absolute;
+}
+
+.product__size__title {
+font-size: 26px;
+text-align: center;
+font-family: TTNormsMedium;
+font-weight: 600;
+padding: 50px 0 30px 0;
+}
+
+.product__table {
+border-radius: 8px;
+background-color: var(--white-color);
+box-shadow: 0px 14px 59px 0px rgba(163, 169, 183, 0.15);
+width: 790px;
+height: 215px;
+margin: 0 auto;
+padding: 30px 50px;
+border-spacing: 0;
+border-bottom: 12px solid rgba(163, 169, 183, 0.15);
+}
+
+th {
+	background-color: var(--green-color);
+	color: var(--white-color);
+	font-size: 17px;
+	font-family: TTNormsMedium;
+	font-weight: 500;
+}
+
+tr {
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	}
+
+	td {
+		font-size: 17px;
+	  font-family: TTNormsRegular;
+	}
+
+	.product__table__row {
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+	}
+
+.product__table__row2 {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.product__table__color {
+	background-color: rgb(248, 248, 248);
+}
+
+@media (max-width: 768px){
+	th, td {
+		font-size: 14px;
+	}
+	.product__picture {
+		display: block;
+    width: 100%;
+	}
+	.product__descr__full {
+		display: block;
+    width: 100%;
+	}
+	.product__descr {
+		max-width: 442px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+	.product__table {
+		height: auto;
+		width: 100%;
+	  max-width: 790px;
+	}
+	.product__size__title {
+		margin-top: 350px;
+	}
+}
+
+@media (max-width: 576px){
+	.product__size__title {
+		margin-top: 450px;
+	}
+}

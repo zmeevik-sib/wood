@@ -1,0 +1,112 @@
+.complex__descr {
+	position: relative;
+	padding-top: 223px;
+	padding-bottom: 200px;
+	height: 100%;
+	text-align: center;
+}
+
+.complex__name h1{
+	font-family: TTNormsMedium;
+	color: var(--black-color);
+	font-size: 52px;
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.complex__name span {
+	font-family: TTNormsLight;
+	}
+
+.map__pin {
+	vertical-align: middle;
+}
+
+.complex__order {
+	position: relative;
+		width: 100%;
+		margin-top: 65px;
+}
+
+.order {
+	text-align: center;
+}
+/* .order {
+	width: 27%;
+  text-align: right;
+  display: inline-block;
+} */
+
+.order__price {
+	font-family: MuseoSans;
+	font-size: 14px;
+	width: 350px;
+	height: 80px;
+	position: relative;
+	border: none;
+	margin: 40px 0;
+	padding: 30px 40px;
+}
+
+.order__price img {
+	position: absolute;
+  top: -10px;
+}
+
+.rewards {
+	max-width: 650px;
+	height: 125px;
+	text-align: left;
+	color: var(--black-color);
+	font-size: 17px;
+	font-family: TTNormsRegular;
+	display: inline-block;
+  padding-left: 500px;
+	vertical-align: text-top;
+	margin-left: 150px;
+}
+
+.rewards img {
+	max-width: 34px;
+}
+
+
+
+@media (max-width: 768px){
+	.complex__name h1{
+		font-size: 28px;
+	}
+
+	.rewards {
+		margin-left: 0;
+		}
+
+}
+
+@media (max-width: 576px){
+	.complex__descr {
+		padding-top: 400px;
+	}
+	.order__price {
+		font-size: 12px;
+    width: 300px;
+    height: 60px;
+
+	}
+
+	.order__price img {
+		display: none;
+	}
+
+	.order {
+		width: 100%;
+		text-align: center;
+	}
+	.rewards {
+		padding-left: 0;
+		text-align: center;
+		padding-top: 100px;
+
+	}
+}

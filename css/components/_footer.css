@@ -1,0 +1,31 @@
+.footer__descr {
+	max-width: 320px;
+	font-size: 14px;
+	font-family: TTNormsRegular;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: 300;
+	position: relative;
+	z-index: 10000;
+	padding-top: 200px;
+
+}
+
+.footer {
+	background-image: url(../../img/trees.png);
+	background-repeat: no-repeat;
+	max-width: 1750px;
+	height: 261px;
+	margin-top: -200px;
+	z-index: 100;
+	position: relative;
+	background-position: bottom;
+}
+@media (max-width: 767px) {
+	.footer
+	{
+    margin-top: -300px;
+    background-size: contain;
+	}
+
+}

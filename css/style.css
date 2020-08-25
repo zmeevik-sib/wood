@@ -1,0 +1,20 @@
+@import "_normalize.css";
+@import "_fonts.css";
+@import "_variables.css";
+@import "_vendor.css";
+@import "_global.css";
+@import "_overall.css";
+
+/* components imports */
+@import "components/_header.css";
+@import "components/_complex.css";
+@import "components/_advantages.css";
+@import "components/_catalog.css";
+@import "components/_product.css";
+@import "components/_price.css";
+@import "components/_company.css";
+@import "components/_gallery.css";
+@import "components/_specialists.css";
+@import "components/_clients.css";
+@import "components/_map.css";
+@import "components/_footer.css";

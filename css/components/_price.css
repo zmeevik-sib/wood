@@ -1,0 +1,333 @@
+.price__title {
+	padding: 100px 0 55px 0;
+}
+
+.price__calculation {
+	max-width: 1050px;
+	width: 100%;
+	background-color: var(--white-color);
+	border-radius: 12px;
+	box-shadow: 0px 14px 59px 0px rgba(163, 169, 183, 0.15);
+	padding: 0;
+	border: 2px solid var(--red-color);
+}
+
+.price__calculation__data {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 45px;
+	border-radius: 8px;
+}
+
+.price__calculation__material,
+.price__calculation__material2 {
+	flex-basis: 28%;
+}
+
+.price__calculation__material3 {
+	padding-top: 42px;
+	flex-basis: 28%;
+}
+
+.price__calculation__info {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 15px;
+}
+
+.price__calculation__descr {
+	font-family: TTNormsMedium;
+	font-size: 18px;
+	line-height: 1.1;
+	font-weight: 600;
+	padding: 0 0 22px;
+	width: 100%;
+}
+
+.price__calculation__descr-add {
+	padding-top: 25px;
+}
+
+.price__calculation__contact {
+	background-image: url(../../img/form-contact.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 57px;
+	margin-top: 45px;
+}
+
+.price__calculation__data-input,
+.price__calculation__contact-input {
+	margin: 0 0 16px;
+	position: relative;
+}
+
+.price__calculation__data-input input,
+.price__calculation__contact-input input {
+	max-width: 290px;
+	height: 59px;
+	background-color: rgb(246, 246, 246);
+	border: 1px solid rgb(235, 236, 237);
+	border-radius: 6px;
+	padding: 0 30px;
+	font-family: TTNormsRegular;
+	font-size: 18px;
+	color: #000;
+	box-sizing: border-box;
+	outline: none;
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+	flex-shrink: 0;
+}
+
+.price__calculation__left_radio {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+.price__calculation__left_radio input {
+	display: none;
+}
+
+.price__calculation__left_radio .price__calculation__left_radio_btn {
+	display: inline-block;
+	margin: 0 15px 0 0;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	border-radius: 50%;
+	background-color: rgb(246, 246, 246);
+}
+
+.price__calculation__left_radio input:checked+.price__calculation__left_radio_btn:after {
+	content: ' ';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 40px;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 50%;
+	border: 14px solid #95c22f;
+}
+
+.price__calculation__left_radio .price__calculation__left_radio_text {
+	font-family: TTNormsRegular;
+	font-size: 17px;
+	color: #000;
+	line-height: 1.1;
+}
+
+.form_cost_container input {
+	width: 100%;
+	height: 68px;
+	margin: 0 0 14px;
+	border: 1px solid transparent;
+	border-radius: 7px;
+	background: #fff;
+	box-sizing: border-box;
+	padding: 0 29px;
+	font-size: 17px;
+	color: #000;
+}
+
+.form_cost_right {
+	width: 36.5%;
+	box-sizing: border-box;
+	border-radius: 0 12px 12px 0;
+	background: #fafafa;
+	padding: 54px 60px 42px;
+}
+
+.form_cost_conf {
+	font-size: 13px;
+	color: #000;
+	line-height: 20px;
+	padding: 0 0 40px 0;
+	text-align: center;
+	font-size: 13px;
+	color: var(--white-color);
+	font-family: TTNormsRegular;
+	font-weight: 400;
+	flex-shrink: 0;
+	padding-top: 25px;
+}
+
+.form_cost_conf a {
+	text-decoration: underline;
+}
+
+
+.price__calculation__exception {
+	padding-top: 0;
+}
+
+.price__calculation__order {
+	font-family: MuseoSans;
+	font-size: 13px;
+	font-weight: 600;
+	border: none;
+	margin-left: 55px;
+	height: 70px;
+	font-weight: 600;
+	line-height: 1.5;
+	flex-shrink: 0;
+	width: 295px;
+}
+
+.calculation__comments textarea {
+	font-family: TTNormsRegular;
+	width: 640px;
+	height: 125px;
+	background-color: rgb(246, 246, 246);
+	border: 1px solid rgb(235, 236, 237);
+	border-radius: 6px;
+	padding: 0 30px;
+	font-size: 16px;
+	color: #000;
+	box-sizing: border-box;
+	outline: none;
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+	flex-shrink: 0;
+	padding: 25px;
+	resize: none;
+}
+
+.price__calculation__button {
+	flex-direction: column;
+}
+
+.price__calculation__send {
+	display: flex;
+	margin: 20px 0 10px 0;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.btn_data_price {
+	color: var(--white-color) !important;
+	text-decoration: underline;
+}
+
+.btn_data {
+	color: #77aaf2 ;
+}
+
+.btn_data:hover {
+  text-decoration: underline;
+  transition: 1s;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+
+button:active, button:focus {
+    outline: none;
+}
+
+.modal_window_data {
+	max-width: 1000px;
+	width: 80%;
+	height: 500px;
+	overflow-y: scroll;
+	background: var(--white-color);
+  background-size: contain;
+	position: fixed;
+	z-index: 300;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+	transform: translateY(-3000px);
+	border-radius: 8px;
+	padding: 20px;
+}
+
+.modal_window_data h2 {
+	text-align: center;
+	font-size: 26px;
+	font-family: TTNormsMedium;
+	font-weight: 600;
+	max-width: 1000px;
+}
+
+.modal_window_data h4 {
+	font-size: 20px;
+	font-family: TTNormsRegular;
+	font-weight: 500;
+	padding: 20px 0;
+}
+
+.modal_window_data ul {
+	list-style-type: disc;
+	padding-left: 15px;
+}
+
+.modal_window_data li {
+	font-size: 16px;
+	font-family: TTNormsRegular;
+	font-weight: 400;
+}
+
+
+.not {
+  opacity: 0.8;
+  visibility: visible;
+  transition: all 0.7s ease-in-out;
+}
+
+.block_close_data {
+  display: block;
+  margin-right: 10px;
+  background: url(../../img/icon/close.svg) no-repeat;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.block_close_data {
+  transition: all 0.2s;
+}
+
+.block_close_data:hover {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+
+@media (max-width: 768px) {
+	.calculation__comments textarea {
+		max-width: 290px;
+	}
+
+	.modal_window_data h2 {
+		font-size: 20px;
+	}
+
+	.modal_window_data h4 {
+		font-size: 16px;
+
+	}
+
+	.modal_window_data li {
+		font-size: 12px;
+	}
+
+}
+
+@media (max-width: 576px) {
+	.price__calculation__order {
+		margin: 0 auto;
+	}
+}

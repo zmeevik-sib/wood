@@ -1,0 +1,133 @@
+.slider-container {
+	position: relative;
+	margin: 0 auto;
+	padding-top: 75px;
+}
+
+.specialist__info {
+	line-height: 2;
+}
+
+.specialist-name {
+	font-family: TTNormsMedium;
+	font-size: 14px;
+	color: var(--black-color);
+	font-weight: 600;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.specialist-title {
+	font-family: TTNormsRegular;
+	font-size: 13px;
+	color: rgb(119, 119, 119);
+	text-align: center;
+
+}
+
+.specialist-foto {
+	background-image: url(../../img/vasiliy-rasputin.png);
+	background-repeat: no-repeat;
+	width: 160px;
+	height: 160px;
+	background-position: center;
+	background-size: 160px;
+	border-radius: 100px;
+	margin: 0 auto;
+}
+
+.specialist-foto2 {
+	background-image: url(../../img/lmitrii-vinogradskii.png);
+	background-repeat: no-repeat;
+	width: 160px;
+	height: 160px;
+	background-position: center;
+	background-size: 160px;
+	border-radius: 100px;
+	margin: 0 auto;
+}
+
+.specialist-foto3 {
+	background-image: url(../../img/grigorii-eremin.png);
+	background-repeat: no-repeat;
+	width: 160px;
+	height: 160px;
+	background-position: center;
+	background-size: 160px;
+	border-radius: 100px;
+	margin: 0 auto;
+}
+
+.specialist-foto4 {
+	background-image: url(../../img/evron-pavlovich.png);
+	background-repeat: no-repeat;
+	width: 160px;
+	height: 160px;
+	background-position: center;
+	background-size: 160px;
+	border-radius: 100px;
+	margin: 0 auto;
+}
+
+.specialist-foto5 {
+	background-image: url(../../img/victor-prohorov.png);
+	background-repeat: no-repeat;
+	width: 160px;
+	height: 160px;
+	background-position: center;
+	background-size: 160px;
+	border-radius: 100px;
+	margin: 0 auto;
+}
+
+button {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	padding: 0;
+	font-size: 12px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	width: 40px !important;
+	height: 40px !important;
+	border-radius: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.swiper-button-prev {
+	left: -30px !important;
+}
+
+.swiper-button-next {
+	right: -30px !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+	display: none;
+}
+
+.swiper-button-prev {
+	background-image: url(../../img/icon/back.svg), var(--gold-color);
+}
+
+.swiper-button-next {
+	background-image: url(../../img/icon/right.svg), var(--gold-color);
+}
+
+.slider-buttons {
+	display: flex;
+	align-items: center;
+}
+
+
+@media (max-width: 1200px) {
+	.swiper-button-prev {
+		left: 0 !important;
+	}
+	.swiper-button-next {
+		right: 0 !important;
+	}
+}

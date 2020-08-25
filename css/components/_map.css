@@ -1,0 +1,162 @@
+.map {
+	max-width: 1170px;
+	border-radius: 8px;
+	padding-top: 30px;
+}
+
+#map {
+max-width: 1170px;
+height: 590px;
+padding-top: 80px;
+}
+
+.map h2 {
+	font-size: 50px;
+	font-family: MuseoSans;
+	font-weight: 500;
+	max-width: 500px;
+	position: absolute;
+	z-index: 100;
+	padding: 160px 0 0 70px;
+}
+
+.map__contacts {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	justify-items: center;
+	max-width: 800px;
+	width: 100%;
+	border-radius: 10px;
+	background-color: var(--white-color);
+	position: relative;
+	z-index: 100;
+	padding: 35px;
+	bottom: 140px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.map__contacts__address {
+	max-width: 175px;
+	font-family: MuseoSans;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.map__contacts__address span {
+	font-family: MuseoSans300;
+	font-weight: 100;
+}
+
+.map__contacts__phone {
+	font-family: MuseoSans;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 60px;
+}
+
+.map__contact__button {
+	max-width: 200px;
+	height: auto;
+	font-size: 12px;
+	padding: 10px 0;
+	font-family: Circe-Bold;
+}
+
+.btn_blue:hover {
+  text-decoration: underline;
+  transition: 1s;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+
+button:active, button:focus {
+    outline: none;
+}
+
+.modal_window {
+	width: 300px;
+	height: 300px;
+  background: var(--white-color);
+  background-size: contain;
+	position: fixed;
+	z-index: 300;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+	transform: translateY(-3000px);
+	border-radius: 8px;
+}
+
+.overlay {
+  background: #1a1a1a;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0.7s ease-in-out, opacity 0.7s ease-in-out;
+  position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 250;
+  height: 100%;
+  width: 100%;
+}
+
+.not {
+  opacity: 0.8;
+  visibility: visible;
+  transition: all 0.7s ease-in-out;
+}
+
+.block_close {
+  display: block;
+  margin-right: 10px;
+  background: url(../../img/icon/close.svg) no-repeat;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.slideInDown {
+  transform: translateY(0px);
+  transition: 1s;
+
+}
+
+.slideOutUp {
+  transform: translateY(-3000px);
+  transition: 2s;
+}
+
+.block_close {
+  transition: all 0.2s;
+}
+
+.block_close:hover {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+
+
+
+@media (max-width:768px){
+	.map h2 {
+		font-size: 25px;
+		padding: 120px 0 0 20px;
+	}
+}
+
+
+

@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'MuseoSans';
+	src: url('../fonts/MuseoSansCyrl700.woff') format('woff');
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MuseoSans300';
+	src: url('../fonts/MuseoSansCyrl300.woff') format('woff');
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TTNormsBold';
+	src: url('../fonts/TTNorms-Bold.woff') format('woff');
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TTNormsRegular';
+	src: url('../fonts/TTNorms-Regular.woff') format('woff');
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TTNormsMedium';
+	src: url('../fonts/TTNorms-Medium.woff') format('woff');
+	font-display: swap;
+	font-style: normal;
+	}
+
+@font-face {
+	font-family: 'TTNormsLight';
+	src: url('../fonts/TTNorms-Light.woff') format('woff');
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/Circe.woff') format('woff');
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe-Bold';
+	src: url('../fonts/Circe-Bold.woff') format('woff');
+	font-display: swap;
+	font-style: normal;
+}
